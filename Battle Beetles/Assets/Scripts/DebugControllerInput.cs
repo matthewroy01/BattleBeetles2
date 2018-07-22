@@ -117,7 +117,7 @@ public class DebugControllerInput : MonoBehaviour
 		string tmpName;
 
 		// for the number of players
-		for (int i = 1; i < numOfPlayers; ++i)
+		for (int i = 1; i <= numOfPlayers; ++i)
 		{
 			// for 1 player, add nothing to the end of the input's name
 			if (i == 1)
@@ -143,7 +143,7 @@ public class DebugControllerInput : MonoBehaviour
 		string tmpName;
 
 		// for the number of players
-		for (int i = 1; i < numOfPlayers; ++i)
+		for (int i = 1; i <= numOfPlayers; ++i)
 		{
 			// for 1 player, add nothing to the end of the input's name
 			if (i == 1)
